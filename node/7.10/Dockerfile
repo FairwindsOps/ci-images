@@ -12,4 +12,4 @@ RUN curl -fsSLo "/usr/local/bin/kubectl" "https://storage.googleapis.com/kuberne
 RUN curl https://dl.google.com/dl/cloudsdk/channels/rapid/install_google_cloud_sdk.bash | bash -s -- --disable-prompts --install-dir=/opt
 ENV PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/google-cloud-sdk/bin
 RUN pip install awscli
-RUN npm install -g rok8s-scripts@7.2.0
+RUN npm install -g rok8s-scripts@7.2.6
